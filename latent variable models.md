@@ -23,3 +23,7 @@ estimate or approximate the p(x) not compute it.
 ![](attachment/27359cf877c35583c25394a8ad54f128.png)
 
 p(x|z) if giving a point from the data z give me it's easy gaussian distribution like the red dots data
+
+important measures:
+1. no. of building blocks (small gaussian mixtures) =  dimension of Z  is a hyperparameter
+2. the shape of that building block doesn't matter, as they are the same the space that the NN will build will be coherent and continuous 
