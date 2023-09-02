@@ -1,3 +1,5 @@
+https://drive.google.com/drive/folders/1exGh9xWLOWyzBaf9RDEN5wUuHyfuvc0t
+
 ### Q1
 Q1
 saddle point is neither a local maximum nor a local minimum (local in a direction and not a local in another) in the loss function graph
