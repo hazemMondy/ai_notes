@@ -84,5 +84,8 @@ Q2:
 * the blue function, is more subtle variation than the orange as
 	* solve the vanishing gradient in the start of the training faced in the orange cost function
 		* the advantage here is that the generator gets a strong gradient signal so that it can quickly improve
-%% 	* intuition: the generator seeks to maximize the probability of images being real, instead of minimizing the probability of an image being fake %%
-* close to 1, that's mean the generator can now generate data that's as good as real and the discriminator classifies it as real ($P_G = P_{data}$)
+<!-- %% 	* intuition: the generator seeks to maximize the probability of images being real, instead of minimizing the probability of an image being fake %% -->
+
+<!-- %% * close to 1, that's mean the generator can now generate data that's as good as real and the discriminator classifies it as real ($P_G = P_{data}$) %% -->
+
+* #chatGPT the discriminator should output values close to 0.5 for both real and generated data. If D(G(z)) is close to 1, it means the discriminator is confidently classifying the generated samples as real, which indicates that the generator has not yet learned to generate realistic data. Conversely, if D(G(z)) is close to 0, it means the discriminator is confidently classifying the generated samples as fake, indicating that the generator is producing poor-quality data.
