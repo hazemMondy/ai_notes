@@ -73,4 +73,4 @@ So with a small γ close to 0, rewards just a few time steps in the future contr
 
 In contrast, a larger discount factor like γ ≈ 1 considers rewards over a much longer horizon approximately equally. This shifts focus toward choices with possibly better long run effects, even if short term rewards are somewhat lower.
 
-
+![Alt text](image.png)
