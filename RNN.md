@@ -43,7 +43,7 @@
     The explosion occurs through exponential growth by repeatedly multiplying gradients through the network layers that have values larger than 1.0.
     
     A technique to solve exploding gradients is gradient clipping. Gradient clipping is a simple heuristic invented by Thomas Mikolov to counter the effect of exploding gradient. That is, whenever the gradient reach a certain threshold, they are set back to a small number.
-[[cheatsheet]]
+[[NLP cheat sheet]]
 
 no. of inputs and outputs determines the application 
 ![](attachment/d9d7238d0a3834cc6897f5ebf3cb2d49.png)
